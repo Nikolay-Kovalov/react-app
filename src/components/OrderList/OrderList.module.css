@@ -1,0 +1,14 @@
+.order_list {
+    padding: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.sum {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 12px;
+    margin-left: 12px;
+}

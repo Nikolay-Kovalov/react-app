@@ -1,0 +1,43 @@
+.item {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    position: relative;
+}
+
+
+.text_wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.img {
+    width: 100px;
+    height: 70px;
+    margin-right: 20px;
+    scale: 1;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.price {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
+.delete_btn {
+    position: absolute;
+    top: 12px;
+    right: 0;
+    color: #ca5252;
+    cursor: pointer;
+    padding: 4px;
+}
